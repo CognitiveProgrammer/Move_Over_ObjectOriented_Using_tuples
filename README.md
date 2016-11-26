@@ -8,8 +8,8 @@
 
 *This page is intended to demonstrate the use of std::tuple in place of C++ structures and classes*
 
-## Module - 1 [The usage of std::tuple](https://github.com/Rapid-9/Move_over_OO_Functional_Tuples/tree/master/Usage%20of%20tuples)
+## Module - 1 [The usage of std::tuple](https://github.com/9lean/Move_Over_ObjectOriented_Using_tuples/tree/master/Usage%20of%20tuples)
 *This module will explain the basic usage of std::tuple*
 
-## Module - 2 [Adding Functions and Functional Behaviour in std::tuple ](https://github.com/Rapid-9/Move_over_OO_Functional_Tuples/tree/master/Functional_Tuples)
+## Module - 2 [Adding Functions and Functional Behaviour in std::tuple ](https://github.com/9lean/Move_Over_ObjectOriented_Using_tuples/tree/master/Functional_Tuples)
 *This module describe the way of adding functions and using those with the paradigms of __Functional Programming__*
