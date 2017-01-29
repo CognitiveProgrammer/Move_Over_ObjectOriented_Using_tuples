@@ -20,3 +20,8 @@ __std::tuple__ _has all ingredients to be an enabled of functional code. Its far
 
 ## Module - 2 [Adding Functions and Functional Behaviour in std::tuple ](https://github.com/9lean/Move_Over_ObjectOriented_Using_tuples/tree/master/Functional_Tuples)
 *This module describe the way of adding functions and using them in line with the paradigms of __Functional Programming__*
+
+## Module - 3 [Using std::tuple in Real World Programming ](https://github.com/9lean/Move_Over_ObjectOriented_Using_tuples/tree/master/RealWorldProgramming)
+*This module depicts some of the real world scenarios where usage of tuples could outclass usage of classes*
+
+
