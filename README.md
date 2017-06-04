@@ -1,7 +1,7 @@
 # Move over C++ Structs and Classes
 ## Use Functional C++ using std::tuple
 
-Languages like C++ and Java are synonymous with_ __classes__ _and_ __structs__. _Any meaningful program in the said language can't be imagined without these keywords_. 
+_Languages like C++ and Java are synonymous with_ __classes__ _and_ __structs__. _Any meaningful program in the said language can't be imagined without these keywords_. 
 
 _The main reason of having_ __classes__ _and_ __structs__, _so as we can create user defined types by combining built in types_. 
 
