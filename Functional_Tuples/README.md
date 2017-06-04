@@ -46,7 +46,7 @@ auto TupleFn = get<2>(tWithFn);
 int result = TupleFn();
 ```
 
-###2.3 : The function programming : Immutability of tuple data
+### 2.3 : The function programming : Immutability of tuple data
 
 *In the above example, we cannot modify the value of tuple unless we pass by reference __'&'__ , thereby it preserve the data from being modified, something what const will do a C++ struct or classes. However, this limitation could actually be bypassed by using mutable*
 
