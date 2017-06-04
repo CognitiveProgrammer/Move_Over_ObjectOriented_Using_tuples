@@ -21,9 +21,9 @@ int result = TupleFn(100, 200); // calling the function
 // calling the function with tuple data members
 int result = TupleFn(get<0>(tWithFn), get<1>(tWithFn));
 ```
-###2.2 : Using std::tuple data members in tuple functions
+### 2.2 : Using std::tuple data members in tuple functions
 
-*Though we can call tuple functions, but there seems to be a serious limitations. In the last example above, I need to manually pass the parameters of tuples. However, I'd like it to be implicit as happens with struct of classes*
+*Though we can call tuple functions, but there seems to be a serious limitations. In the last example above, we need to manually pass the parameters of tuples. However, many a times we'd like it to be implicit as happens with struct of classes*
 
 *Well, in template meta programming, its not possible to refer a template argument N-1 at N. so we can't do it in place. However, its possible to do the same by changing the function definition after defining it while creating tuples. Here is how we'll do it*
 
