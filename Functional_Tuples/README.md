@@ -11,7 +11,7 @@
 std::tuple<int, int, function<int(int, int)>> tWithFn { 10, 20, [](int a, int b) ->int { return a + b; } };
 
 ```
-*Here __tWithFn__ contains two integers and a functions. The function defined in the tuple can be called as*
+*Here __tWithFn__ contains two integers and a function. The function defined in the tuple can be called as*
 
 ```
 int result = get<2>(tWithFn)(10,20);  // Direct Call
@@ -23,9 +23,9 @@ int result = TupleFn(get<0>(tWithFn), get<1>(tWithFn));
 ```
 ### 2.2 : Using std::tuple data members in tuple functions
 
-*Though we can call tuple functions, but there seems to be a serious limitations. In the last example above, we need to manually pass the parameters of tuples. However, many a times we'd like it to be implicit as happens with struct of classes*
+*Though we can call tuple functions, but there seems to be a serious limitation. In the last example above, we need to manually pass the parameters of tuples. However, many a times we'd like it to be implicit as happens with struct of classes*
 
-*Well, in template meta programming, its not possible to refer a template argument N-1 at N. so we can't do it in place. However, its possible to do the same by changing the function definition after defining it while creating tuples. Here is how we'll do it*
+*Well, in template meta programming, it,s not possible to refer a template argument N-1 at N. so we can't do it in place. However, it,s possible to do the same by changing the function definition after defining it while creating tuples. Here is how we'll do it*
 
 * 1 - Define the tuple with function and provide the dummy implementation of the function
 ```
