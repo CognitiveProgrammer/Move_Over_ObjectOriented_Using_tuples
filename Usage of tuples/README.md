@@ -1,13 +1,13 @@
 # Module - 1 : The basic usage of std::tuple
 
-*Tuples (std::tuple) is a container which allow hetrogeneous data types. Though we can achieve the same with std::pair<>, but its limited to only 2 data members. std::tuple<> has no such limitations.*
+*Tuples (std::tuple) is a container which allow heterogeneous data types. Though we can achieve the same with std::pair<>, but its limited to only 2 data members. std::tuple<> has no such limitations.*
 
 ## 1.1 C++ classes and structs
 
 *In C++, __Structs__ and __Classes__ are used for creating used defined types a.k.a Objects.
-An object in* **OOP** *contains state (represented by member variables) and corresponding Behaviours (represented by member functions).*
+An object in* **OOP** *contains state (represented by member variables) and corresponding behaviours (represented by member functions).*
 
-*The object also contains implicit member functions like  __constructors__ , __destructors__ , __copy constructors__ , and __assignment operators__ , unless written explicitly. for example, let create a user defined type as*
+*The object also contains implicit member functions like  __constructors__ , __destructors__ , __copy constructors__ , and __assignment operators__ , unless written explicitly. For example, let create a user defined type as*
 
 ```
 struct Udt {
@@ -57,7 +57,7 @@ get<2>(tpOne) = 100.95;
 
 ```
 # 1.3 Some benefits of using tuples over structs and classes
-*With struct and classes, you need to know number of elements and types of elements, however with tuples, it can be known using standard library functions*
+*With struct and classes, you need to know the number of elements and types of elements, however, with tuples, it can be known using standard library functions*
 ```
 typedef tuple<int, char, float>  Tp;
 Tp tpOne(1,'c',2.5);
